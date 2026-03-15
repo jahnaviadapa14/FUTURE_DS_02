@@ -1,61 +1,35 @@
-#  Customer Retention & Churn Analysis Dashboard
-This project was completed as part of the **Data Science & Analytics Internship at Future Interns**.  
-The goal of this project is to analyze customer data to identify **churn patterns, retention drivers, and customer behavior trends** using an interactive Power BI dashboard.
+# Customer Retention & Churn Analysis Dashboard
 
-## Project Overview
-Customer churn is a major challenge for subscription-based businesses.  
-This project focuses on understanding **why customers leave and what factors influence retention**.
+This project was completed as part of the **Data Science & Analytics Internship at Future Interns**.
 
-Using the Telco Customer Churn dataset, a **Power BI dashboard** was developed to visualize churn patterns and provide actionable insights that can support business decisions.
+## 📊 Project Overview
+This Power BI dashboard analyzes customer churn patterns using the Telco Customer Churn dataset.  
+The objective is to understand customer behavior, identify factors influencing churn, and discover insights that can help businesses improve customer retention.
 
----
-## 🛠 Tools & Technologies
-- **Power BI** – Dashboard development and visualization  
-- **Power Query** – Data cleaning and transformation  
-- **DAX (Data Analysis Expressions)** – Creating measures and KPIs  
-- **Data Analytics** – Generating business insights
----
-##  Dataset
-Dataset used: **Telco Customer Churn Dataset**
-Key attributes in the dataset include:
-- Customer demographics  
-- Contract types  
-- Internet services  
-- Payment methods  
-- Monthly charges  
-- Customer tenure  
-- Churn status
+## 🛠 Tools Used
+- Power BI
+- Data Visualization
+- Business Analytics
 
----
-## Dashboard Features
-The interactive dashboard includes:
+## 📂 Dataset
+Telco Customer Churn Dataset
 
-### Key Performance Indicators (KPIs)
-- Total Customers
-- Churned Customers
-- Churn Rate
-- Average Monthly Charges
-
-### Visual Insights
-- Customer Churn Distribution
+## 📈 Dashboard Features
+- Total Customers, Churned Customers, and Churn Rate KPI cards
+- Average Monthly Charges KPI
+- Customer Churn Distribution visualization
 - Churn by Contract Type
 - Churn by Internet Service
 - Churn Trend by Customer Tenure
+- Interactive Filters (Gender, Contract, Payment Method, Internet Service)
 
-### Interactive Filters
-Users can filter and explore data using slicers for:
+## 🔍 Key Insights
+- Customers with **month-to-month contracts show the highest churn rate**.
+- **Fiber optic internet users have higher churn** compared to DSL users.
+- Customers with **higher monthly charges tend to churn more frequently**.
+- Customers with **longer tenure demonstrate stronger retention and loyalty**.
 
-- Gender  
-- Contract Type  
-- Payment Method  
-- Internet Service  
----
-##  Key Insights
-
-- Customers with **month-to-month contracts have the highest churn rate**.
-- **Fiber optic internet users show higher churn** compared to DSL users.
-- Customers with **higher monthly charges are more likely to churn**.
-- Customers with **longer tenure demonstrate stronger retention**.
-
-These insights help businesses design **better pricing strategies and retention programs**.
-
+## 📁 Files Included
+- `FUTURE_DS_02.pbix` – Power BI Dashboard
+- `WA_Fn-UseC_-Telco-Customer-Churn.csv` – Dataset used for analysis
+- `dashboard.png` – Screenshot of the final dashboard
